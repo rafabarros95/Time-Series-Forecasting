@@ -1,7 +1,7 @@
 # Time-Series-Forecasting
 
 Kristan Böttjer (11422684)
-
+Rafael Barros (11411431)
 
 The repository is structured as follows:
 For each model there is a notebook which consists of the model function and a basic evaluation with just a simple train test split.
@@ -11,5 +11,8 @@ manually. In the end we compare all models in the results notebook where you can
 
 General remarks:
 For the Australian Electricity dataset. We used the data of the state of Victoria only. Also we aggregated it to daily data 
-as hourly otherwise it was too much data. In Hindsight we could have also jsut reduced the number of data points to keep the diverstiy of frequencies. 
+as hourly otherwise it was too much data. In Hindsight we could have also just reduced the number of data points to keep the diverstiy of frequencies. 
 . The Car Parts dataset was also aggregated. Here we just used the sum of all shops so grouped by date.
+
+Data Extraction:
+. we basically defined 2 notebooks for that, for instance datagetter.ipynb & basic_functions.ipynb (also including tsf extraction function to a dataframe format for our analysis)
